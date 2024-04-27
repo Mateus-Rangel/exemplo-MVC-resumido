@@ -30,6 +30,10 @@ class Controller {
     htmlElements.getBtnRemoverPessoa().addEventListener("click", function () {
       service.removerPessoa(htmlElements.getIndexToSearch());
     });
+
+    htmlElements.getTeste().addEventListener("click", function () {
+      service.teste();
+    });
   }
 }
 

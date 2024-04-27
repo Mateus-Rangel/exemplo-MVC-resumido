@@ -3,6 +3,10 @@ import Pessoa from "./entity.js";
 class PessoaDAO {
   constructor() {}
 
+  teste() {
+    console.log('isso é uma função de teste')
+  }
+
   lerTodos() {
     const list = [];
     for (let i = 0; i < localStorage.length; i++) {

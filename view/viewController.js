@@ -22,6 +22,10 @@ class HtmlElements {
     return document.getElementById("btnRemoverPessoa");
   }
 
+  getTeste() {
+    return document.getElementById("teste");
+  }
+
   getResult() {
     return document.getElementById("result");
   }

@@ -21,10 +21,13 @@ class Service {
   }
 
   removerPessoa(index) {
-    if(confirm('Você gostaria de deletar o registro dessa pessoa?')) {
-        this.pessoaDAO.removePessoa(index)
+    if (confirm("Você gostaria de deletar o registro dessa pessoa?")) {
+      this.pessoaDAO.removePessoa(index);
     }
-    
+  }
+
+  teste() {
+    this.pessoaDAO.teste();
   }
 }
 
