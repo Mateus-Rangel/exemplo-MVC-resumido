@@ -77,15 +77,5 @@ test("remover pessoa", () => {
     pessoaDao.salvar(element);
   }
   pessoaDao.removePessoa(0);
-  // for (let i = 0; i < 3; i++) {
-  //   expect(localStorage.__STORE__[i]).toBe(
-  //     "O nome da pessoa é: Mateus Rangel e a sua idade é: 30"
-  //   );
-  // }
   expect(localStorage.__STORE__[0]).toBe(undefined);
-  // expect(pessoaDao.lerTodos()).toStrictEqual([
-  //   "O nome da pessoa é: Caroline Rangel e a sua idade é: 30",
-  //   "O nome da pessoa é: Fátima Rangel e a sua idade é: 30",
-  //   "O nome da pessoa é: Guilherme Rangel e a sua idade é: 30",
-  // ]);
 });
